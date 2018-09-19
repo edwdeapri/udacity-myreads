@@ -1,12 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class BookShelfChanger extends React.Component {
+class BookMove extends React.Component {
   static propTypes = {
-
+    book: PropTypes.object.isRequired,
+    books: PropTypes.array.isRequired,
+    bookMove: PropTypes.func.isRequired,
   };
 
   render() {
+    const { book, books, bookMove } = this.props;
+
+    let currentShelf = 'none';
+
+    for (let item of books) {
+      if (item.id === book.id) {
+        currentShelf = item.shelf;
+        break;
+      }
+    }
+
     return (
       <div className="book-shelf-changer">
         <select>
@@ -21,4 +34,4 @@ class BookShelfChanger extends React.Component {
   }
 }
 
-export default BookShelfChanger;
+export default BookMove;
