@@ -19,16 +19,18 @@ class Book extends React.Component {
           <div className="book-top">
             <div
               className="book-cover"
-              style={{ backgroundImage: `url(${book.imageLinks.thumbnail})` }}>
+              style={{
+                backgroundImage: `url(${book.imageLinks.thumbnail})`,
+              }}>
             </div>
-            <bookMove
+            <BookMove
               book={ book }
               books={ books }
               bookMove={ bookMove }
               />
           </div>
           <div className="book-title">{ book.title }</div>
-          <div className="book-authors">{ book.author }</div>
+          <div className="book-authors">{ book.authors }</div>
         </div>
       </li>
     );

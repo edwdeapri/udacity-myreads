@@ -9,8 +9,6 @@ class BookStack extends React.Component {
     bookMove: PropTypes.func.isRequired,
   };
 
-  state = { bookMove: false };
-
   render() {
 
     const { books, bookMove } = this.props;

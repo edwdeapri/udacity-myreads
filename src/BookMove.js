@@ -11,22 +11,22 @@ class BookMove extends React.Component {
   render() {
     const { book, books, bookMove } = this.props;
 
-    let currentShelf = 'none';
+    let bookShelf = 'none';
 
     for (let item of books) {
       if (item.id === book.id) {
-        currentShelf = item.shelf;
+        bookShelf = item.shelf;
         break;
       }
     }
 
     return (
       <div className="book-shelf-changer">
-        <select>
+        <select onChange={(event) => bookMove(book, event.target.value)} defaultValue={ bookShelf }>
           <option value="none" disabled>Move to...</option>
-          <option value="currentlyReading">Currently Reading</option>
-          <option value="wantToRead">Want to Read</option>
-          <option value="read">Read</option>
+          <option value="currentRead">Currently Reading</option>
+          <option value="futureRead">Looking Forward to Reading</option>
+          <option value="pastRead">Already Read</option>
           <option value="none">None</option>
         </select>
       </div>
