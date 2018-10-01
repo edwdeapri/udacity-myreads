@@ -9,6 +9,11 @@
   "devDependencies": {
     "react-scripts": "^2.0.2"
   },
+  "license": "BSD-2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwdeapri/udacity-myreads.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
