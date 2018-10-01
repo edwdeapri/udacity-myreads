@@ -1,21 +1,4 @@
 {
-  "name": "Udacity MyReads",
-  "version": "1.0.0",
-  "description": "An application that places books onto shelves based on whether you read, are reading or going to read state.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/edwdeapri/udacity-myreads.git"
-  },
-  "keywords": [
-    "myreads",
-    "bookshelf",
-    "books",
-    "udacity"
-  ],
-  "author": "Edward Pritchard",
-  "email": "edward.d.pritchard@gmail.com",
-  "license": "BSD-2-Clause",
-  "homepage": "https://github.com/computationalcore/myreads#readme",
   "dependencies": {
     "ajv": "^6.5.4",
     "prop-types": "^15.6.2",
