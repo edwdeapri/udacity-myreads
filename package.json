@@ -1,4 +1,5 @@
 {
+  "author": "Edward Pritchard",
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -16,6 +17,7 @@
     "react-scripts": "^2.0.2"
   },
   "license": "BSD 2-Clause",
+  "name": "Udacity MyReads",
   "repository": {
     "type": "git",
     "url": "https://github.com/edwdeapri/udacity-myreads"
@@ -25,5 +27,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "version": "1.0.0"
 }
