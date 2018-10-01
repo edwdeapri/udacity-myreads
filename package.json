@@ -16,7 +16,7 @@
   "devDependencies": {
     "react-scripts": "^2.0.2"
   },
-  "license": "BSD 2-Clause",
+  "license": "BSD-2-Clause",
   "name": "udacity-myreads",
   "repository": {
     "type": "git",

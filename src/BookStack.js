@@ -16,9 +16,9 @@ class BookStack extends React.Component {
 
     /* Setting the book shelves */
     const bookShelfs = [
-      { type: "currentRead", title: "What I am Currently Reading" },
-      { type: "futureRead", title: "What I am Looking Forward to Reading" },
-      { type: "pastRead", title: "What I Have Already Read" }
+      { type: "currentlyReading", title: "What I am Currently Reading" },
+      { type: "wantToRead", title: "What I am Looking Forward to Reading" },
+      { type: "read", title: "What I Have Already Read" }
     ];
 
     return (

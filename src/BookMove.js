@@ -31,9 +31,9 @@ class BookMove extends React.Component {
           <option value="none" disabled>
             Move to...
           </option>
-          <option value="currentRead">Currently Reading</option>
-          <option value="futureRead">Looking Forward to Reading</option>
-          <option value="pastRead">Already Read</option>
+          <option value="currentlyReading">Currently Reading</option>
+          <option value="wantToRead">Looking Forward to Reading</option>
+          <option value="read">Already Read</option>
           <option value="none">None</option>
         </select>
       </div>
