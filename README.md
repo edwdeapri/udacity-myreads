@@ -26,7 +26,7 @@ git clone https://github.com/edwdeapri/udacity-myreads
 Change to the directory where the project is living on your local environment
 
 ```
-cd myreads
+cd udacity-myreads
 ```
 
 Install dependencies with the package manager:
