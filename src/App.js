@@ -24,12 +24,11 @@ class BooksApp extends React.Component {
   };
 
   /* Component handler to get library data */
-  componentDidMount() {
-    BooksAPI.getAll().then(books => {
-      this.setState({ books });
-    });
-  }
-
+    componentDidMount() {
+        BooksAPI.getAll().then(books => {
+            this.setState({ books });
+        });
+    }
   render() {
     const { books } = this.state;
     return (
