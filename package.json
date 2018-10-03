@@ -13,5 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "keywords": [],
+  "name": "my-reads-an-udacity-application",
+  "description": "This is a React application built for Udacity's MyReads project for React Fundamentals."
 }
