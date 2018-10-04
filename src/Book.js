@@ -7,42 +7,44 @@ import BookCoverError from "./icons/missing-cover-image.png";
 
 /* This component builds the book */
 
-class Book extends React.Component {
-  static propTypes = {
-    book: PropTypes.object.isRequired,
-    books: PropTypes.array.isRequired,
-    bookMove: PropTypes.func.isRequired
-  };
+const Book = props => {
+  const { book, books, bookMove } = props;
 
-  render() {
-    const { book, books, bookMove } = this.props;
+  /* Checking to see if cover, title and author is present, provide alternative if not.*/
+  const bookCover =
+    book.imageLinks && book.imageLinks.thumbnail
+      ? book.imageLinks.thumbnail
+      : BookCoverError;
+  const bookTitle = book.title ? book.title : "Title Unavailable";
+  const bookAuthors = book.authors
+    ? Array.isArray(book.authors)
+      ? book.authors.join(", ")
+      : ""
+    : "Author Unavailable";
 
-    /* Checking to see if cover, title and author is present, provide alternative if not.*/
-    const bookCover =
-      book.imageLinks && book.imageLinks.thumbnail
-        ? book.imageLinks.thumbnail
-        : BookCoverError;
-    const bookTitle = book.title ? book.title : "Title Unavailable";
-    const bookAuthors = book.authors ? book.authors : "Author Unavailable";
-
-    return (
-      <li>
-        <div className="book">
-          <div className="book-top">
-            <div
-              className="book-cover"
-              style={{
-                backgroundImage: `url(${bookCover})`
-              }}
-            />
-            <BookMove book={book} books={books} bookMove={bookMove} />
-          </div>
-          <div className="book-title">{bookTitle}</div>
-          <div className="book-authors">{bookAuthors}</div>
+  return (
+    <li>
+      <div className="book">
+        <div className="book-top">
+          <div
+            className="book-cover"
+            style={{
+              backgroundImage: `url(${bookCover})`
+            }}
+          />
+          <BookMove book={book} books={books} bookMove={bookMove} />
         </div>
-      </li>
-    );
-  }
-}
+        <div className="book-title">{bookTitle}</div>
+        <div className="book-authors">{bookAuthors}</div>
+      </div>
+    </li>
+  );
+};
+
+Book.propTypes = {
+  book: PropTypes.object.isRequired,
+  books: PropTypes.array.isRequired,
+  bookMove: PropTypes.func.isRequired
+};
 
 export default Book;
