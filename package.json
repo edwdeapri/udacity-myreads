@@ -1,11 +1,6 @@
 {
   "author": "Edward Pritchard",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "dependencies": {
     "ajv": "^6.5.4",
     "prop-types": "^15.6.2",
@@ -17,7 +12,7 @@
     "react-scripts": "^2.0.2"
   },
   "license": "BSD-2-Clause",
-  "name": "udacity-myreads",
+  "name": "myreads-an-udacity-application",
   "repository": {
     "type": "git",
     "url": "https://github.com/edwdeapri/udacity-myreads"
@@ -28,6 +23,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "name": "my-reads-an-udacity-application",
-  "description": "This is a React application built for Udacity's MyReads project under React Fundamentals module."
+  "description": "This is a React application built for Udacity's MyReads project under React Fundamentals module.",
+  "keywords": []
 }
