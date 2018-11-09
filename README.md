@@ -31,7 +31,7 @@ It is recommended to use Yarn as the package manager for this project. Visit htt
 Clone the project to your local environment
 
 ```
-git clone https://github.com/edwdeapri/udacity-myreads
+git clone https://github.com/edwdeapri/udacity-myreads.git
 ```
 
 Change to the directory where the project is living on your local environment
