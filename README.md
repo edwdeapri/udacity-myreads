@@ -62,7 +62,7 @@ The MyReads application has a search page where users can search books by keywor
 
 ## Built With
 
-* [ReactJS](https://reactjs.org/) - A JavaScript Framework
+- [ReactJS](https://reactjs.org/) - A JavaScript Framework
 
 ## Versioning
 
@@ -70,12 +70,12 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## Authors
 
-* [Edward Pritchard](https://github.com/edwdeapri) - Design / Development
+- [Edward Pritchard](https://github.com/edwdeapri) - Design / Development
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
 ## Acknowledgments
 
-* [Colen Wilson](https://github.com/tachiinii) for troubleshooting and testing the application during development.
+- [Colen Wilson](https://github.com/tachiinii) for troubleshooting and testing the application during development.
