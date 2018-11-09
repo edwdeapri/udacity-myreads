@@ -2,10 +2,11 @@
   "name": "myreads-an-udacity-application",
   "version": "1.0.0",
   "description": "This is a React application built for Udacity's MyReads project under React Fundamentals module.",
-  "keywords": ["react", "javascript", "bookshelf"],
+  "keywords": [],
   "homepage": "https://codesandbox.io/s/github/edwdeapri/udacity-myreads",
   "license": "MIT",
   "author": "Edward Pritchard <edward.d.pritchard@gmail.com> (https://ethemcreative.com)",
+  "main": "src/index.js",
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
   "repository": {
     "type": "git",
