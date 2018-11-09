@@ -1,6 +1,21 @@
 {
-  "author": "Edward Pritchard",
+  "name": "myreads-an-udacity-application",
+  "version": "1.0.0",
+  "description": "This is a React application built for Udacity's MyReads project under React Fundamentals module.",
+  "keywords": ["react", "javascript", "bookshelf"],
+  "license": "MIT",
+  "author": "Edward Pritchard <edward.d.pritchard@gmail.com> (https://ethemcreative.com)",
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwdeapri/udacity-myreads.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "ajv": "^6.5.4",
     "prop-types": "^15.6.2",
@@ -10,19 +25,5 @@
   },
   "devDependencies": {
     "react-scripts": "^2.0.2"
-  },
-  "license": "BSD-2-Clause",
-  "name": "myreads-an-udacity-application",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/edwdeapri/udacity-myreads"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "description": "This is a React application built for Udacity's MyReads project under React Fundamentals module.",
-  "keywords": []
+  }
 }

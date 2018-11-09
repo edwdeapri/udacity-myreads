@@ -1,20 +1,16 @@
 # MyReads - A Bookshelf App built with React
 
-MyReads is a bookshelf application built with React for Udacity's React
-Nanodegree Program - React Fundamentals.
+MyReads is a bookshelf application built with React for Udacity's React Nanodegree Program - React Fundamentals.
 
 ## Getting Started
 
-These instructions will get you a copy of the MyReads application up and running
-on your local environment for development and testing purposes.
+These instructions will get you a copy of the MyReads application up and running on your local environment for development and testing purposes.
 
 ### Prerequisites
 
 NODE AND NPM
 
-You will need Node.js and npm on your local environment to download and run this
-application. Visit https://nodejs.org to learn the specifics on downloading,
-installing and running Node.js. npm is packaged with Node.js.
+You will need Node.js and npm on your local environment to download and run this application. Visit https://nodejs.org to learn the specifics on downloading, installing and running Node.js. npm is packaged with Node.js.
 
 REACT
 
@@ -31,7 +27,7 @@ It is recommended to use Yarn as the package manager for this project. Visit htt
 Clone the project to your local environment
 
 ```
-git clone https://github.com/edwdeapri/udacity-myreads.git
+git clone https://github.com/edwdeapri/udacity-myreads
 ```
 
 Change to the directory where the project is living on your local environment
