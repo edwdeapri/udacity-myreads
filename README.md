@@ -2,6 +2,15 @@
 
 MyReads is a bookshelf application built with React for Udacity's React Nanodegree Program - React Fundamentals.
 
+## Demo
+
+[Checkout this live demo](https://qkzr4xl4o9.codesandbox.io/) of the MyReads app. Once the simulator has launched, follow these instructions:
+
+1. You can move a book by selecting which shelf you want the book to move to.
+2. You can add a book by going to the search screen and searching by keywords. (There are keyword restrictions. View in the Restrictions section below for a list of the accepted keywords.).
+3. Move the book to which shelf it belongs on.
+4. Use the back button to see the new book added to the shelf that was selected.
+
 ## Getting Started
 
 These instructions will get you a copy of the MyReads application up and running on your local environment for development and testing purposes.
