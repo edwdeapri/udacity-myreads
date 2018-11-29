@@ -57,7 +57,11 @@ body,
   height: 50px;
   border-radius: 50%;
   background: #c33325;
-  background-image: url("./icons/add.svg");
+  /*** Code for images to work on local environment
+  * background-image: url("./icons/add.svg")
+  */
+  /*** Code for images to work on CodeSandbox */
+  background-image: url("https://rawcdn.githack.com/edwdeapri/udacity-myreads/8e1e35a134366a05dc52475d51045c243fc1a481/src/icons/add.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 28px;
@@ -94,7 +98,11 @@ body,
   width: 50px;
   height: 53px;
   background: #ffffff;
-  background-image: url("./icons/arrow-back.svg");
+  /*** Code for images to work on local environment
+  * background-image: url("./icons/arrow-back.svg")
+  */
+  /*** Code for images to work on CodeSandbox */
+  background-image: url("https://rawcdn.githack.com/edwdeapri/udacity-myreads/8e1e35a134366a05dc52475d51045c243fc1a481/src/icons/arrow-back.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 28px;
@@ -149,7 +157,11 @@ body,
   height: 40px;
   border-radius: 50%;
   background: #f19722;
-  background-image: url("./icons/arrow-drop-down.svg");
+  /*** Code for images to work on local environment
+  * background-image: url("./icons/arrow-drop-down.svg")
+  */
+  /*** Code for images to work on CodeSandbox */
+  background-image: url("https://rawcdn.githack.com/edwdeapri/udacity-myreads/8e1e35a134366a05dc52475d51045c243fc1a481/src/icons/arrow-drop-down.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
